@@ -11,9 +11,10 @@ body {
 .profile-wrapper {
 	width: 25%;
 	height: 70%;
-	border: 1px solid;
-	border-color: rgba(121,85,72,0.3);
+	border: 1px solid rgba(121,85,72,0.3);
 	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 20px -5px rgba(121,85,72,0.9);
+	-moz-box-shadow: 0 1px 20px -5px rgba(121,85,72,0.9);
 	box-shadow: 0 1px 20px -5px rgba(121,85,72,0.9);
 	padding: 50px 35px;
 	background-color: rgba(239,235,233,0.2);
@@ -64,7 +65,7 @@ body {
 	width: 90%;
 	height: auto;
 	margin: 0 auto 40px;
-	padding: 0px;
+	padding: 0;
 	color: #30231d;
 	line-height: 1.5em;
 	text-align: left;
